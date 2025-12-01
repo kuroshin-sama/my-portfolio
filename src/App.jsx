@@ -6,7 +6,7 @@ import User from "./pages/profile";
 import './animstr'
 export default function App() {
   return (
-    <BrowserRouter basename="/my-LabRat">
+    <BrowserRouter basename="/my-portfolio">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
